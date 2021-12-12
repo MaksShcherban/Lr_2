@@ -672,8 +672,8 @@ h5 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 730px;
-  background: url(background_end_02.jpg) center no-repeat;
+  height: 100vh;
+  background: url(background_end_02_02.jpg) center no-repeat;
   background-size: cover;
   margin-top: 100px;
 }
@@ -681,7 +681,7 @@ h5 {
 .text_in {
   color: white;
   font-size: 27px;
-  margin-top: -500px;
+  margin-top: -450px;
   margin-left: 655px;
   width: 100%;
   max-width: 150px;
