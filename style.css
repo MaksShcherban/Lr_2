@@ -20,11 +20,15 @@ h5 {
   font-weight: normal;
 }
 
+img{
+  width: 100%;
+}
 /* Countainer */
 .countainer {
   width: 100%;
   max-width: 1260px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Intro */
@@ -266,6 +270,10 @@ h5 {
   max-width: 530px;
   margin: 0 auto;
 }
+.picture_all{
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* Block 4 */
 .block_4 {
@@ -306,6 +314,7 @@ h5 {
 .insade {
   justify-content: space-between;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .texting {
@@ -489,6 +498,7 @@ h5 {
 
 .people_1 {
   text-align: center;
+  width: 150px;
 }
 .people_1 h4 {
   font-size: 28px;
@@ -500,6 +510,7 @@ h5 {
 
 .people_2 {
   text-align: center;
+  width: 150px;
 }
 .people_2 h4 {
   font-size: 28px;
@@ -511,6 +522,7 @@ h5 {
 
 .people_3 {
   text-align: center;
+  width: 150px;
 }
 .people_3 h4 {
   font-size: 28px;
@@ -530,6 +542,8 @@ h5 {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 100px;
+  width: 80px;
+  margin: 0 auto;
 }
 
 .info_peple {
@@ -550,6 +564,7 @@ h5 {
 
 .img_people {
   text-align: center;
+
 }
 .name_people {
   margin-right: 200px;
@@ -565,6 +580,8 @@ h5 {
 
 .arrows {
   text-align: center;
+  margin:0 auto ;
+  width: 90px;
 }
 
 /* block 10 */
@@ -609,3 +626,166 @@ h5 {
   left: 46%;
   margin-top: 350px;
 }
+
+
+/* Media */
+
+/* 
+
+@media (min-width:320px) and (max-width:499px){
+  .intro_text{
+    font-size: 30px;
+  }
+  .intro_subtext{
+    font-size: 18px;
+  }
+  .btn{
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .nav{
+    display: none;
+  }
+
+
+   .section{
+  padding: 30px 30px;
+}
+  .section_title{
+    font-size: 20px;
+    }
+    .section_text{
+    font-size:10px ;
+    }
+    .section_title::after {
+    width: 200px;
+    }
+    .about_img{
+      width: 60px;
+      height: 80px;
+    }
+    .section_headr{
+      margin-bottom: 25px;
+    }
+    .signate_text{
+      font-size: 14px;
+    }
+   
+    .signate_text::after{
+      width: 20px;
+    }
+    .description_text{
+      display: none;
+     }
+}
+
+
+
+@media (min-width:500px){
+
+  .intro_text{
+    font-size: 35px;
+  }
+  .intro_subtext{
+    font-size: 20px;
+  }
+
+  .about_img{
+    width: 80px;
+    height: 100px;
+  }
+  .signate_text{
+    font-size: 16px;
+  }
+  .description_text{
+    font-size: 10px;
+  }
+  .signate_text::after{
+    width: 30px;
+  }
+  
+  }
+
+@media (min-width:700px){
+  .intro_text{
+    font-size: 40px;
+  }
+  .intro_subtext{
+    font-size: 22px;
+  }
+  .btn{
+    padding: 5px 15px;
+    font-size: 20px;
+  }
+
+.section_title{
+  font-size: 24px;
+  }
+  .section_text{
+  font-size:14px ;
+  }
+  .section_title::after {
+  width: 250px;
+  }
+  .about_img{
+    width: 90px;
+    height: 110px;
+  }
+  .signate_text{
+    font-size: 18px;
+  }
+  .description_text{
+    font-size: 11px;
+  }
+  .signate_text::after{
+    width: 40px;
+  }
+  
+}
+
+@media (min-width:1000px){
+
+  .intro_text{
+    font-size: 44px;
+  }
+  .intro_subtext{
+    font-size: 22px;
+  }
+  .btn{
+    
+    font-size: 22px;
+  }
+  
+
+  .section_title{
+  font-size: 26px;
+  }
+  .section_text{
+  font-size:16px ;
+  }
+  .section_title::after {
+  width: 260px;
+  }
+  .signate_text{
+    font-size: 22px;
+  }
+  .description_text{
+    font-size: 13px;
+  }
+  .signate_text::after{
+    width: 50px;
+  }
+  
+  
+ 
+  .picture_all{
+    width: 550px;
+  }
+  }
+  
+
+@media (max-width:1230px){
+ 
+  
+  
+  } */
