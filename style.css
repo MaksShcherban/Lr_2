@@ -627,159 +627,156 @@ img{
   margin-top: 350px;
 }
 
-
-/* Media */
-
 @media (max-width:1230px){
-  /* Intro */
+/* Intro */
+
+
+}
+
+@media (max-width:990px){
+/* Intro */
+.intro_text{
+  font-size: 44px;
+}
+.intro_subtext{
+  font-size: 22px;
+}
+.btn{
   
-  
-  }
-  
-  @media (max-width:990px){
-  /* Intro */
+  font-size: 22px;
+}
+
+/* Block 2 */
+.section_title{
+font-size: 26px;
+}
+.section_text{
+font-size:16px ;
+}
+.section_title::after {
+width: 260px;
+}
+.signate_text{
+  font-size: 22px;
+}
+.description_text{
+  font-size: 13px;
+}
+.signate_text::after{
+  width: 50px;
+}
+
+
+/* Block 4 */
+.picture_all{
+  width: 550px;
+}
+}
+
+
+@media (max-width:770px){
   .intro_text{
-    font-size: 44px;
+    font-size: 40px;
   }
   .intro_subtext{
     font-size: 22px;
   }
   .btn{
-    
-    font-size: 22px;
-  }
-  
-  /* Block 2 */
-  .section_title{
-  font-size: 26px;
-  }
-  .section_text{
-  font-size:16px ;
-  }
-  .section_title::after {
-  width: 260px;
-  }
-  .signate_text{
-    font-size: 22px;
-  }
-  .description_text{
-    font-size: 13px;
-  }
-  .signate_text::after{
-    width: 50px;
-  }
-  
-  
-  /* Block 4 */
-  .picture_all{
-    width: 550px;
-  }
-  }
-  
-  
-  @media (max-width:770px){
-    .intro_text{
-      font-size: 40px;
-    }
-    .intro_subtext{
-      font-size: 22px;
-    }
-    .btn{
-      padding: 5px 15px;
-      font-size: 20px;
-    }
-    /* Block 2 */
-  .section_title{
-    font-size: 24px;
-    }
-    .section_text{
-    font-size:14px ;
-    }
-    .section_title::after {
-    width: 250px;
-    }
-    .about_img{
-      width: 90px;
-      height: 110px;
-    }
-    .signate_text{
-      font-size: 18px;
-    }
-    .description_text{
-      font-size: 11px;
-    }
-    .signate_text::after{
-      width: 40px;
-    }
-  }
-  
-  @media (max-width:650px){
-  /* Intro */
-  .intro_text{
-    font-size: 35px;
-  }
-  .intro_subtext{
+    padding: 5px 15px;
     font-size: 20px;
   }
-  /* block 2 */
+  /* Block 2 */
+.section_title{
+  font-size: 24px;
+  }
+  .section_text{
+  font-size:14px ;
+  }
+  .section_title::after {
+  width: 250px;
+  }
   .about_img{
-    width: 80px;
-    height: 100px;
+    width: 90px;
+    height: 110px;
   }
   .signate_text{
-    font-size: 16px;
+    font-size: 18px;
   }
   .description_text{
-    font-size: 10px;
+    font-size: 11px;
   }
   .signate_text::after{
-    width: 30px;
+    width: 40px;
   }
+}
+
+@media (max-width:650px){
+/* Intro */
+.intro_text{
+  font-size: 35px;
+}
+.intro_subtext{
+  font-size: 20px;
+}
+/* block 2 */
+.about_img{
+  width: 80px;
+  height: 100px;
+}
+.signate_text{
+  font-size: 16px;
+}
+.description_text{
+  font-size: 10px;
+}
+.signate_text::after{
+  width: 30px;
+}
+}
+
+@media (max-width:550px){
+  .intro_text{
+    font-size: 26px;
   }
-  
-  @media (max-width:550px){
-    .intro_text{
-      font-size: 16px;
+  .intro_subtext{
+    font-size: 14px;
+  }
+  .btn{
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .nav{
+    display: none;
+  }
+
+  /* Block 2 */
+.section{
+  padding: 30px 30px;
+}
+  .section_title{
+    font-size: 20px;
     }
-    .intro_subtext{
+    .section_text{
+    font-size:10px ;
+    }
+    .section_title::after {
+    width: 200px;
+    }
+    .about_img{
+      width: 60px;
+      height: 80px;
+    }
+    .section_headr{
+      margin-bottom: 25px;
+    }
+    .signate_text{
       font-size: 14px;
     }
-    .btn{
-      padding: 5px 15px;
-      font-size: 16px;
+    .description_text{
+     display: none;
     }
-    .nav{
-      display: none;
+    .signate_text::after{
+      width: 20px;
     }
-  
-    /* Block 2 */
-  .section{
-    padding: 30px 30px;
-  }
-    .section_title{
-      font-size: 20px;
-      }
-      .section_text{
-      font-size:10px ;
-      }
-      .section_title::after {
-      width: 200px;
-      }
-      .about_img{
-        width: 60px;
-        height: 80px;
-      }
-      .section_headr{
-        margin-bottom: 25px;
-      }
-      .signate_text{
-        font-size: 14px;
-      }
-      .description_text{
-       display: none;
-      }
-      .signate_text::after{
-        width: 20px;
-      }
-  
-  }
+
+}
