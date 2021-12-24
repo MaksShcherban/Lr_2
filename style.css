@@ -394,7 +394,7 @@ img{
 /* Block 7 */
 
 .block_7 {
-  height: 100vh;
+  height: 700px;
   width: 100%;
 
 }
@@ -496,7 +496,12 @@ img{
   justify-content: space-between;
   margin-top: 100px;
 }
-
+.text_people{
+  font-size: 25px;
+}
+.text_ovner{
+  font-size: 20px;
+}
 .people_1 {
   text-align: center;
   width: 150px;
@@ -571,6 +576,10 @@ img{
 .name_people {
   margin-right: 200px;
   margin-top: 20px;
+  font-size: 28px;
+}
+.ovner_pople{
+  font-size: 20px;
 }
 .name_people h3 {
   font-size: 28px;
@@ -611,15 +620,17 @@ img{
   position: relative;
 }
 
-.text_in h3 {
+.text_in_head {
   font-size: 27px;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
 
-.text_in p {
+.text_no_head  {
   font-size: 15px;
+  color: #fff;
+  max-width: 200px;
 }
 
 .logo_end {
@@ -638,6 +649,18 @@ img{
 .text_no_head_2{
   max-width: 300px;
 }
+/* Block 6 */
+.text_no_head_3{
+  max-width: 300px;
+}
+/* Block 7 */
+.block_7{
+  height: 700px;
+  }
+  /* Block 10 */
+  .text_no_head{
+    max-width: 200px;
+  }
 }
 
 @media (max-width:990px){
@@ -720,9 +743,7 @@ font-size: 22px;
 .block_5{
   height: 470px;
 }
-.texting_2{
-  margin-right: 30px;
-}
+
 .text_head_2{
   font-size: 22px;
 }
@@ -735,9 +756,61 @@ font-size: 22px;
   width: 500px;
   margin-left: 0px;
 }
+/* block 6 */
+.text_head_3{
+  font-size: 26px;
+}
+.text_no_head_3{
+  font-size: 14px;
+}
+.picture_3{
+  width: 400px;
+}
+/* Block 7 */
+.heading_text_4{
+  font-size: 25px;
+}
+.heading_text_4::after{
+  width: 150px;
+}
+.nav_2_link{
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-@media (max-width:880px){
+/* Block 9 */
+.texting{
+  width: 300px;
+  font-size: 14px;
+}
+.img_people{
+  width: 160px;
+}
+.name_people{
+  font-size: 22px;
+}
+.ovner_pople{
+  font-size: 18px;
+}
+ /* Block 10 */
+ .rombys{
+   width: 180px;
+   height: 212px;
+ }
+ .text_in_head{
+   font-size: 26px;
+ }
+ .text_no_head{
+  max-width: 150px;
+  font-size: 12px;
+}
+.logo_end{
+  font-size: 26px;
+}
+}
+
+@media (max-width:900px){
   /* Block 4 */
   
   .texting{
@@ -756,11 +829,11 @@ font-size: 22px;
 }
  /* Block 5 */
  .block_5{
-  height: 800px;
+  height: 600px;
+  margin-bottom: 0px;
 }
 .texting_2{
   text-align: center;
-  margin-right: 0px;
 }
 .insade{
   justify-content: center;
@@ -769,6 +842,71 @@ font-size: 22px;
 margin-top: 30px;
 padding-right: 0px;
 }
+
+/* block 6 */
+.text_head_3{
+  font-size: 26px;
+}
+.text_no_head_3{
+  font-size: 14px;
+}
+.picture_3{
+  margin: 0 auto;
+}
+/* Block 8 */
+.block_8{
+  height: 500px;
+}
+.head_text_{
+  font-size: 26px;
+}
+.head_text_::after{
+  width: 150px;
+}
+.text_people{
+ font-size: 20px;
+}
+.text_ovner{
+  font-size: 16px;
+}
+.people_1{
+  width: 110px;
+}
+.people_2{
+  width: 110px;
+}
+.people_3{
+  width: 110px;
+}
+.people{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Block 9 */
+.texting{
+  width: 250px;
+  font-size: 14px;
+}
+.img_people{
+  width: 120px;
+}
+.name_people{
+  font-size: 20px;
+  margin-right: 120px;
+}
+.ovner_pople{
+  font-size: 16px;
+}
+.icon_head{
+  width: 60px;
+}
+
+ /* Block 10 */
+ .text_no_head{
+  max-width: 150px;
+}
+
 
 }
 
@@ -843,12 +981,57 @@ padding-right: 0px;
   .picture_2{
     padding-left: 0px;
   }
-  .texting_2{
-    text-align: center;
-  }
+ 
   .block_5{
-    height: 500px;
+    height: 600px;
   }
+  /* Block 6 */
+  .picture_3{
+    margin-top: 20px;
+    width: 500px;
+  }
+  /* Block 7 */
+  .block_7{
+    height: 600px;
+  }
+
+  
+/* Block 9 */
+.texting{
+  width: 250px;
+  font-size: 11px;
+}
+.img_people{
+  width: 100px;
+}
+.name_people{
+  font-size: 18px;
+  margin-right: 120px;
+}
+.ovner_pople{
+  font-size: 14px;
+}
+.icon_head{
+  width: 50px;
+}
+.arrows{
+  width: 70px;
+}
+ /* Block 10 */
+ .rombys{
+  width: 160px;
+  height: 192px;
+}
+.text_in_head{
+  font-size: 24px;
+}
+.text_no_head{
+ max-width: 130px;
+ font-size: 12px;
+}
+.logo_end{
+ font-size: 24px;
+}
 }
 
 @media (max-width:650px){
@@ -914,11 +1097,55 @@ font-size: 11px;
  .block_5{
   height: 630px;
 }
+
 .picture_2{
 width: 400px;
 }
 .text_no_head_2{
 font-size: 11px;
+}
+.block_5{
+  margin-bottom: 0px;
+  height: 500px;
+}
+.picture_2{
+  width: 400px;
+}
+
+/* Block 6 */
+.picture_3{
+  width: 400px;
+}
+ /* Block 7 */
+ .block_7{
+  height: 550px;
+}
+/* Block 8 */
+.fecebook{
+  width: 80px;
+  margin: 0 auto;
+}
+/* Block 9 */
+.texting{
+  width: 200px;
+  font-size: 11px;
+  padding-left: 20px;
+}
+.img_people{
+  width: 100px;
+}
+.name_people{
+  font-size: 18px;
+  margin-right: 120px;
+}
+.ovner_pople{
+  font-size: 14px;
+}
+.icon_head{
+  width: 50px;
+}
+.arrows{
+  width: 70px;
 }
 
 }
@@ -1002,14 +1229,96 @@ font-size: 11px;
 
   /* Block 5 */
   .block_5{
-    height: 350px;
+    height: 500px;
   }
-  .pictyre_2{
+  .texting_2{
+    margin-right: 15px;
+  }
+  .picture_2{
     width: 300px;
   }
   .text_no_head_2{
   font-size: 11px;
   max-width: 200px;
   }
- 
+  
+  /* Block 6 */
+  .picture_3{
+    width: 300px;
+  }
+ .text_head_3{
+   font-size: 24px;
+ }
+ .text_no_head_3{
+   font-size: 11px;
+   max-width: 200px;
+ }
+ .texting_3{
+   margin-left: 15px;
+ }
+/* Block 7 */
+.block_7{
+  height: 400px;
+}
+.heading_text_4{
+  font-size: 18px;
+}
+.heading_text_4::after{
+  width: 100px;
+}
+.nav_2_link{
+  font-size: 10px;
+}
+.picture_4{
+  width: 320px;
+}
+/* Block 8 */
+.people_1{
+  width: 90px;
+}
+.people_2{
+  width: 90px;
+}
+.people_3{
+  width: 90px;
+}
+/* Block 9 */
+.texting{
+  width: 150px;
+  font-size: 9px;
+  padding-left: 10px;
+}
+.img_people{
+  width: 80px;
+}
+.name_people{
+  font-size: 14px;
+  margin-right: 40px;
+}
+.ovner_pople{
+  font-size: 12px;
+}
+.icon_head{
+  width: 40px;
+  padding-bottom: 40PX;
+}
+.arrows{
+  width: 60px;
+}
+ /* Block 10 */
+ .rombys{
+  width: 130px;
+  height: 152px;
+}
+.text_in_head{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.text_no_head{
+ max-width: 100px;
+ font-size: 11px;
+}
+.logo_end{
+ font-size: 22px;
+}
 }
